@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #fdf6f7;
+}
+
+.container {
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  background: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #d86a7c;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background: #fdebed;
+}
+
+.hero-text h1 span {
+  color: #e85d75;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background: #e85d75;
+  color: white;
+  border-radius: 8px;
+}
+
+.botoes .outline {
+  background: transparent;
+  border: 1px solid #e85d75;
+  color: #e85d75;
+}
+
+.hero-img img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+/* SOBRE */
+.sobre {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.sobre img {
+  width: 200px;
+  border-radius: 20px;
+}
+.sobre p {
+  text-align: justify;
+  line-height: 1.6;
+}
+.tags span {
+  background: #f8cbd2;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* PROJETOS */
+#lista-projetos {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.btn-menu {
+  background: #f8cbd2;
+  color: #333;
+}
+.btn-menu:hover {
+  background: #e85d75;
+  color: white;
+}
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 250px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.hero h1 span {
+  color: #e85d75;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+button {
+  background: #e85d75;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.hero {
+  background: linear-gradient(to right, #fdebed, #fff);
+}
+button:hover {
+  opacity: 0.8;
+}
+body {
+  background: #fff5f7;
+}
+
+.hero {
+  background: #fdebed;
+  padding: 40px;
+}
+
+button {
+  background: #e85d75;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.sobre p {
+  text-align: justify;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f8cbd2;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .sobre {
+    flex-direction: column;
+  }
+}
